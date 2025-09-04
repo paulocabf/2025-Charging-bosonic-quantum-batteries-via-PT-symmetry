@@ -83,7 +83,7 @@ A charging protocol is usually considered in which the QB, initially empty, inte
 
 \section{Theory}
 
-\subsection{Collision Model Approach}
+\subsection{Collision Model}
 
 Consider a QB composed of a single-mode harmonic oscillator having frequency $\omega$ and Hamiltonian $H_S = \omega b^{\dagger}b$, where $b$ is the annihilation operator and $\hbar = 1$ hereafter. The QB interacts simultaneously with two atomic baths composed of excited and ground state two-level systems, described by the Hamiltonians $H_G$ and $H_L$, respectively, as depicted in Fig. \ref{fig1}. Each bath is formed by discrete ancillas that interact with the QB during a collision time $\tau$. The initial state of the total system is given by
 \begin{equation}
@@ -102,11 +102,11 @@ The interaction energy between each individual ancilla and the QB is given by
 \begin{equation}
     H_{Sj}^n = g_j(b^{\dagger} \sigma_{j,n}^{-} + b\sigma_{j,n}^{+}) \quad (j = G,L),
 \end{equation}
-where $g_j$ is the coupling parameter between the QB and the reservoir $j=G,L$ and $\sigma^{\pm}$ are the Pauli raising and lowering operators for the qubits. The collision model assumes a discrete time $t_n = n\tau$ for the interaction between the QB and the ancillas. That is, the pair of ancillas $n$, one from each bath, interacts with the QB in the time interval $[(n-1)\tau, n\tau]$. In this interval, the total system evolves as $\rho_{SB}(n) = U(n) \rho_{SB}[(n-1)] U(n)^{\dagger}$, where $U(n)$ is the time-evolution operator
+where $g_j$ is the coupling parameter between the QB and the reservoir $j=G,L$ and $\sigma^{\pm}$ are the Pauli raising and lowering operators for the qubits. The collision model assumes a discrete time $t_n = n\tau$ for the interaction between the QB and the ancillas. That is, the pair of ancillas $n$, one from each bath, interacts with the QB in the time interval $[(n-1)\tau, n\tau]$. In this interval, the total system evolves as $\rho_{SB}(n) = U(n) \rho_{SB}[(n-1)] U^{\dagger}(n)$, where $U(n)$ is the time-evolution operator
 \begin{equation}
-    U(n) = e^{-i\tau(H_S + H_{G,n} + H_{L,n} + H^n_{SG} + H^n_{SL})},
+    U(n) = e^{-i\tau(H_S + H_{G,n} + H_{L,n} + H^n_{SG} + H^n_{SL})}
 \end{equation} 
-where $H_{j,n} = (\omega/2)\sigma^{z}_{j,n}$ $(j=G,L)$ is the atomic energy of the $n$th qubit in bath $j$. Notice that we assume a ressonant interaction between each ancilla and the QB. The density operator $\rho(n)$ for the QB after $n$ interactions can be obtained by taking the partial trace $\rho(n) = \text{Tr}_{B}[\rho_{SB}(n)]$.
+and $H_{j,n} = (\omega/2)\sigma^{z}_{j,n}$ $(j=G,L)$ is the atomic energy of the $n$th qubit in bath $j$. Notice that we assume a resonant interaction between each ancilla and the QB. The density operator $\rho(n)$ for the QB after $n$ interactions can be obtained by taking the partial trace $\rho(n) = \text{Tr}_{B}[\rho_{SB}(n)]$.
 
 Under these assumptions (one collision between each ancilla and the QB, forbidden ancilla-ancilla interaction and uncorrelated initially prepared ancillas), it is known that this collision model generates a Markovian dynamics where each collision is fully characterized by a CPTP map ~\cite{ciccarello2022quantum}. 
 

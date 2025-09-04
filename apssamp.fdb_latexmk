@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex apssamp"] 1756905264.29995 "apssamp.aux" "apssamp.bbl" "apssamp" 1756910257.64081 0
+["bibtex apssamp"] 1756985140.60828 "apssamp.aux" "apssamp.bbl" "apssamp" 1756985143.22406 0
   "./apssamp.bib" 1756904635 1461 68ad12df3c4c69b51bbc710970ce3c39 ""
-  "./apssampNotes.bib" 1756910256 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
+  "./apssampNotes.bib" 1756985141 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
   "C:/Users/paulocabf/AppData/Local/Programs/MiKTeX/bibtex/bst/revtex/apsrev4-2.bst" 1685674058 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "apssamp.aux" 1756910256 3671 98d6db7ab592aca46ab864ae7b0ae1f7 "pdflatex"
+  "apssamp.aux" 1756985141 3680 2db7f81d54cef6e89e68c29710bd77ef "pdflatex"
   (generated)
   "apssamp.bbl"
   "apssamp.blg"
   (rewritten before read)
-["pdflatex"] 1756910255.25543 "c:/Users/paulocabf/Desktop/Projetos Latex/2025 Charging bosonic quantum batteries via PT symmetry/apssamp.tex" "apssamp.pdf" "apssamp" 1756910257.6422 0
+["pdflatex"] 1756985141.10655 "c:/Users/paulocabf/Desktop/Projetos Latex/2025 Charging bosonic quantum batteries via PT symmetry/apssamp.tex" "apssamp.pdf" "apssamp" 1756985143.22492 0
   "C:/Users/paulocabf/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756908752 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/paulocabf/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753710092 13256290 dc63fcbc9a93061737229f78d32ebc61 ""
   "C:/Users/paulocabf/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -117,10 +117,10 @@
   "C:/Users/paulocabf/AppData/Local/Programs/MiKTeX/tex/latex/tools/dcolumn.sty" 1749468414 2758 67c3ad720591c53ba8fa03ee9fbf7375 ""
   "C:/Users/paulocabf/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/paulocabf/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "apssamp.aux" 1756910256 3671 98d6db7ab592aca46ab864ae7b0ae1f7 "pdflatex"
-  "apssamp.bbl" 1756905264 5142 39edfe015474fdcad67c752cec44ddc5 "bibtex apssamp"
-  "apssamp.tex" 1756910254 15788 a7d310e70afce0b2b1822c1e3ef960ce ""
-  "c:/Users/paulocabf/Desktop/Projetos Latex/2025 Charging bosonic quantum batteries via PT symmetry/apssamp.tex" 1756910254 15788 a7d310e70afce0b2b1822c1e3ef960ce ""
+  "apssamp.aux" 1756985141 3680 2db7f81d54cef6e89e68c29710bd77ef "pdflatex"
+  "apssamp.bbl" 1756985141 5142 39edfe015474fdcad67c752cec44ddc5 "bibtex apssamp"
+  "apssamp.tex" 1756985135 15797 ae60739aad96c59dd2112b6b7b9e52e1 ""
+  "c:/Users/paulocabf/Desktop/Projetos Latex/2025 Charging bosonic quantum batteries via PT symmetry/apssamp.tex" 1756985135 15797 ae60739aad96c59dd2112b6b7b9e52e1 ""
   "fig1.pdf" 1756898366 37089 911fb7a12f9b13d8e0b282004a41a59a ""
   "fig3.eps" 1756811845 210110 8d485ea9fce257f9056f47adeff60ed2 ""
   "fig4.eps" 1756811845 213289 aceebc7521be82167e023ceb47da3ccd ""
